@@ -1,0 +1,24 @@
+
+/*body{
+    
+    background-color: black;
+    
+}*/
+
+.Fondo{
+
+    margin-top: 80px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+
+}
+
+.Fondo img{
+    
+   
+    
+    margin:30px;
+    width:700px;
+    height:550px;
+}

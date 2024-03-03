@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head lang=es-ES>
+    <title>Copefami R.L | Cotizador de Ahorros</title>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Cpmpatible" content="ie=edge">
+
+    <!--Hojas de estilos-->
+    <link href="css/cotizador.css" rel="stylesheet">
+    
+    <!--Icono de encabezado-->
+    <link href="img/icon.png" rel="icon">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     <!--Iconos de navegacion-->
+    <link rel="stylesheet" href="font.css">
+
+    <!--Fuentes-->
+
+    <!--Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital@1&display=swap" rel="stylesheet">
+
+    <!--Lobster Two-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="animate__animated animate__fadeIn">
+    
+
+    <!--Go Top-->
+    <div class="go-top">
+        <span><i class="fas fa-angle-up"></i></span>
+    </div>
+
+    <!--Menu de navegacion-->
+
+    <header id="header">
+
+        <nav class="menu">
+            <div class="logo-box">
+
+                <a href="#"><img src="img/logo1.png"></a>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="services.html" >Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="contact.html" class="active">Cotizador</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        <!--IMG header-->
+
+    
+
+    </header>
+
+    <!--Menu de navegacion-->
+    <!--Barra social-->
+    
+    <div class="social-bar">
+       
+        <a href="https://www.facebook.com/Copefami" class= "icon icon-facebook2" target = "_blank"></a>
+        <a href="https://wa.me/50241248110" class= "icon icon-whatsapp" target = "_blank"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="icon icon-outgoing_mail" target="_blank"></a>     
+        
+    </div>
+
+    <!--Nosotros-->
+    <main>
+
+        <!--Proyectos-->
+
+       
+    </main>
+
+    <!--Footer-->
+
+<footer class="footer">
+
+        <div class="deg-footer"></div>
+
+        <div class="ejeZfooter">
+            <div class="footer-content">
+                <div class="footer-title">
+                    <h2>Cotizador de Ahorros</h2>
+
+                </div>
+
+                
+                
+                
+                
+                
+                
+                <!--Cotizador-->
+                <div class = "cot">
+                    
+                    <form id="cotizador">
+
+                        <h4>Cotizador de Ahorros</h4>
+                            
+                            <label for = "monto">Monto</label>
+                            <input type = "number" placeholder = "Monto" id = "monto" min = 1000 required><br>
+                            
+                            <label for = "tiempo">Plazo</label>
+                            <select id = "tiempo" required>
+                                  <option value="3">3 Meses</option>
+                                  <option value="6">6 Meses</option>
+                                  <option value="12">1 Año</option>
+                            </select><br>
+                            
+                        <!--
+                            <label for = "monto">Tipo de Ahorro</label>
+                            <select id = "tipo" required>
+                                <option>Ahorro corriente</option>
+                                <option>Ahorro a plazo fijo</option>
+                                <option>Ahorro programado</option>
+                                <option>Ahorro infanto juvenil</option>
+                            </select><br><br>
+
+                        -->
+                        
+
+                            <input type = "submit" name = "Calcular" value="Calcular">
+                    
+                            <input type = "reset" name = "Reestablecer">
+
+                    </form>
+                    
+                    <div id = "resultados">
+                        
+                        <h5 class="result">Monto: </h5><p id = "capital"></p>
+                        <h5 class="result">Plazo: </h5><p id = "plazo"></p>
+                        <h5 class="result">Intereses: </h5><p id = "interes"></p>
+                        <h5 class="result">Tasa de interes: </h5><p id = "percent"></p>
+                        <h5 class="result">Total de intereses menos impuestos (ISR): </h5><p id = "totISR"></p>
+                        <h5 class="result">Monto mas intereses: </h5><p id = "capitalPint"></p>
+
+
+
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                
+                
+       
+
+                <!--Cotizador-->
+                
+                
+                
+                
+                
+                
+                
+                <div class="footer-text">
+                    
+                    
+                    <p>Agencia Central: Aldea Nimasac Totonicapan</p>
+                    <p>4124-8110</p>
+                    <p>copefamirl2021@gmail.com</p>
+                    <p>&copy; Copefami R.L | Todos los Derechos Reservados</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skew-arriba"></div>
+    </footer>
+
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/cad8c195dd.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/popUp.js"></script>
+    <script src="js/cot.js"></script>
+    
+
+</body>
+
+</html>
